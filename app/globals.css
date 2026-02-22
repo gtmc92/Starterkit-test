@@ -116,6 +116,14 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+@layer utilities {
+  /* container를 중앙 정렬하여 max-w 사용 시 좌측 쏠림 방지 */
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
