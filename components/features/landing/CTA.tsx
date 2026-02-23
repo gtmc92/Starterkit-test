@@ -30,7 +30,7 @@ export function CTA() {
           {/* CTA 버튼 */}
           <div className="flex items-center justify-center gap-4 flex-wrap">
             <Button size="lg" asChild>
-              <Link href="/docs/getting-started" className="gap-2">
+              <Link href="/docs" className="gap-2">
                 시작 가이드 보기
                 <ArrowRight className="h-4 w-4" />
               </Link>
