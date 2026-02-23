@@ -29,9 +29,9 @@ export function Hero() {
           </div>
 
           {/* 제목 */}
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-6">
-            Next.js 기반{' '}
-            <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-6 text-balance">
+            <span className="block">Next.js 기반</span>
+            <span className="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               모던 웹 스타터킷
             </span>
           </h1>
