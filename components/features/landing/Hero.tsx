@@ -22,8 +22,8 @@ export function Hero() {
       <div className="relative z-10 flex items-center justify-center min-h-[600px]">
         <div className="container max-w-screen-md px-4 text-center">
           {/* 배지 */}
-          <div className="inline-flex items-center rounded-full bg-accent/10 px-4 py-1.5 mb-6">
-            <span className="text-sm font-medium text-accent">
+          <div className="inline-flex items-center rounded-full bg-primary/10 px-4 py-1.5 mb-6">
+            <span className="text-sm font-medium text-primary">
               🎉 새로운 모던 웹 스타터킷이 출시되었습니다
             </span>
           </div>
